@@ -22,3 +22,24 @@ h6 {
 .dropover-active {
   background-color: rgba(0, 0, 0, 0.9);
 }
+
+/* Bottom Trash style starts*/
+
+.bottom-trash {
+  opacity: 0;
+  color: #f1f1f1;
+  font-size: 2.3rem;
+  font-family: "Staatliches, sans-serif";
+  transform: translateY(150px);
+  transition: all 0.5s ease-in-out;
+  background-color: rgba(234, 0, 39, 0.7);
+}
+
+.bottom-trash-drag {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.bottom-trash-active {
+  background-color: rgba(234,0,39,1);
+}
